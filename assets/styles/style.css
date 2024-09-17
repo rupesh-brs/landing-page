@@ -1,0 +1,39 @@
+body{
+    background-image: url(/assets/imgs/landing-bg-4.jpg);
+    background-size: cover;
+}
+#heading{
+    color:whitesmoke;
+    font-family: cursive;
+    text-align: center;
+    font-size: 52px;
+}
+
+#main{
+    
+    display: flexbox;
+    align-items: center;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: xx-large;
+    color: aquamarine;
+    margin-left: 30%; 
+}
+
+#time{
+    position:absolute;
+    font-size: 2em;
+    top:25%;
+    left:40%;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+#quote{
+    position:absolute;
+    font-size: 1em;
+    top:50%;
+    left:30%;
+    color: rgb(190, 180, 0);
+    background-color: azure;
+
+}
