@@ -1,4 +1,16 @@
 window.onload = function() {
+    const quotes = [
+        "I am capable of achieving my goals.",
+        "Today is going to be a great day.",
+        "I am doing my best, and that's good enough.",
+        "Good things are coming my way.",
+        "My thoughts and feelings matter.",
+      ];
+  const random = Math.floor(Math.random() * quotes.length);
+  const quote = document.getElementById("quote");
+  quote.innerText = quotes[random];
+
+
     const images = [
         'assets/imgs/landing-bg-1.jpg',
         'assets/imgs/landing-bg-2.jpg',
@@ -13,22 +25,13 @@ window.onload = function() {
     
     console.log("Selected background image:", randomImage);
 
-    document.body.style.backgroundImage = `url(${randomImage})`;
+    document.body.style.backgroundImage = `url("${randomImage}")`;
 };
 
-window.onload = function(){
-    const quotes = [
-        "I am capable of achieving my goals.",
-        "Today is going to be a great day.",
-        "I am doing my best, and that's good enough.",
-        "Good things are coming my way.",
-        "My thoughts and feelings matter.",
-      ];
-  const random = Math.floor(Math.random() * quotes.length);
-  const quote = document.getElementById("quote");
-  quote.innerText = quotes[random];
+// window.onload = function(){
+    
   
-};
+// };
 
 function updateTime() {
     const time = new Date();
