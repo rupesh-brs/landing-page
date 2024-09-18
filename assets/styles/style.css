@@ -39,7 +39,8 @@ body{
 }
 
 #greeting{
-    color: chocolate;
+    /* color: chocolate; */
+    color: rgb(183, 0, 9);
     font-size: 45px;
     font-weight: 500;
 }

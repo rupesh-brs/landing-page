@@ -1,4 +1,3 @@
-
 window.onload = function() {
     // Quote and Background Image Logic
     const quotes = [
