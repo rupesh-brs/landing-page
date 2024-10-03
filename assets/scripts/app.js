@@ -21,6 +21,9 @@ window.onload = function() {
     const randomImage = images[Math.floor(Math.random() * images.length)];
     console.log("Selected background image:", randomImage);
     document.body.style.backgroundImage = `url("${randomImage}")`;
+    document.body.style.backgroundSize = cover;
+    document.body.style.backgroundRepeat = none;
+    
   
     // Time-Based Greeting and Time Display Logic
     const greetingElement = document.getElementById("greeting");
